@@ -1,2 +1,2 @@
-# bg
+# gbg
 Gradient Background Generator
