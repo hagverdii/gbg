@@ -63,7 +63,7 @@ button {
     padding: 16px;
     color: rgba(0,0,0,.9);
     font: bold 1em 'Raleway', sans-serif;
-    transition: scale 0.2s;
+    transition: transform 0.2s;
 }
 
 button:hover {
