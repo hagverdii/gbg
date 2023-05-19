@@ -1,0 +1,101 @@
+body {
+	font: 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+}
+
+p {
+    font-weight: bold;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+.colorPicker {
+    margin: 0px 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    border: 0px solid black;
+    width: 100px;
+    height: 40px;
+}
+
+h1 {
+    font: 600 3.5em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+}
+
+h3 {
+	font: 900 1em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+}
+
+#button-container {
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin-top: 20px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,.5);
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 16px;
+    color: rgba(0,0,0,.9);
+    font: bold 1em 'Raleway', sans-serif;
+    transition: scale 0.2s;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background-color: rgb(206, 206, 206);
+}
+
+@media screen and (max-width: 800px) {
+    h1 {
+        font: 600 2em 'Raleway', sans-serif;
+    }
+
+    h2 {
+        font: 600 .9em 'Raleway', sans-serif;
+    }
+
+    h3 {
+        font: 900 .7em 'Raleway', sans-serif;
+    }  
+    
+    button {
+        padding: 12px;
+        font: bold .8em 'Raleway', sans-serif;
+    }
+
+    input {
+        border: 0px solid black;
+        width: 70px;
+        height: 30px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+}
